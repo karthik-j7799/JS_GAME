@@ -1,6 +1,8 @@
-var character = document.getElementById("character");
-var obstacle = document.getElementById("obstacle");
-var counter=0;
+let character = document.getElementById("character");
+let obstacle = document.getElementById("obstacle");
+
+let counter=0;
+
 function jump(){
     if(character.classList == "animate"){return}
     character.classList.add("animate");
